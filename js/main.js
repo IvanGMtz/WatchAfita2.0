@@ -16,7 +16,7 @@ document.addEventListener("click", async e => {
 
 export function contruirPeli(peli) {
 
-    document.getElementById("OrderbyRanking").innerHTML += `<div class="card mb-3 mt-2 ms-3 border-light bg-dark text-light g-0" style="width: 300px; height:  360px;">
+    document.getElementById("OrderbyRanking").innerHTML += `<div class="card mb-3 mt-2 ms-3 border-light bg-dark text-light g-0 d-flex justify-content-center" style="width: 300px;">
         <div class="row text-center "><h5 class="card-title g-0 p-2 ">${peli.results.title} ⭐${peli.results.rating}</h5></div>
         <div class="row g-0 align-items-center">
           <div class="col-md " style="display: flex; height: 28vh; overflow: auto; flex-direction: column;">
