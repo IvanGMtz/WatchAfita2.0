@@ -41,6 +41,9 @@ const GetMoviebyName = async (name) => {
 
 function idPeli(peli) {
     peli.results.forEach(e => { infoPeli(e.imdb_id); });
+    if(peli.results.length===0){
+        document.getElementById("titulo").innerHTML=`<p class="h3 text-light">Sin sugerencias</p>`;
+    }
 }
 
 const infoPeli = async (e) => {
