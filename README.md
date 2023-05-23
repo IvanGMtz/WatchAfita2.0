@@ -8,7 +8,7 @@ En caso tal tengas un nombre en mente escríbelo en el apartado "Nombre de pelí
 
 
 
-Cada película viene acompañada por su titulo, calificación, imagen y descripción, al final de la descripción se deja un link para que veas el tráiler de cada película.
+Cada película viene acompañada por su titulo, calificación, imagen y descripción, al final de la descripción se deja un link para que veas el tráiler de cada película. (Debido a la API consumida todo el contenido es en ingles).
 
 
 
